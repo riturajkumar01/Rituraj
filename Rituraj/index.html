@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Portfolio</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <header>
+        <h1 class="glow-text">Rituraj Kumar</h1>
+        <p class="subtitle">Web Developer | Programmer | Designer</p>
+        <a href="#projects" class="btn">Explore Projects</a>
+    </header>
+    <main>
+        <section id="about">
+            <h2 class="glitch">About Me</h2>
+            <p class="description">I am Rituraj, a passionate developer skilled in creating real-time applications and stylish web designs. Currently pursuing B.Tech in Computer Science from SRM University, Chennai.</p>
+        </section>
+
+        <section id="skills">
+            <h2 class="glitch">Skills</h2>
+            <div class="skill-set">
+                <div class="skill">C</div>
+                <div class="skill">C++</div>
+                <div class="skill">Java</div>
+                <div class="skill">Python</div>
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">SQL</div>
+                <div class="skill">Git</div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="glitch">Projects</h2>
+            <div class="project-list">
+                <div class="project-card">
+                    <h3>CSE Projects </h3>
+                    <p class="para">A collection of data structure implementations in Java, C, and C++, showcasing algorithms and techniques to enhance programming proficiency.</p>
+                    <a href="https://github.com/riturajkumar01" class="btn" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Personal Portfolio Website</h3>
+                    <p class="para">A responsive website showcasing my projects and skills, built using HTML, CSS, and JavaScript.</p>
+                    <a href="https://codolio.com/profile/rituraj_kumar" class="btn" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Movie Ticket Booking System</h3>
+                    <p class="para">A Java-based movie ticket booking system that allows users to search for movies, select seats, and manage their bookings efficiently.</p>
+                    <a href="https://github.com/riturajkumar01/MOVIE-TICKET/" class="btn" target="_blank">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="glitch">Contact Information</h2>
+            <p>Email: <a href="mailto:riturajkumar15384@gmail.com">riturajkumar15384@gmail.com</a></p>
+            <p>Contact Number: https://www.linkedin.com/in/er-rituraj-kumar-788867288/</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Rituraj Kumar. All rights reserved.</p>
+    </footer>
+
+    <script>
+        particlesJS("particles-js", {
+            particles: {
+                number: { value: 80, density: { enable: true, value_area: 800 } },
+                color: { value: "#ffffff" },
+                shape: { type: "circle" },
+                opacity: { value: 0.5, random: true },
+                size: { value: 3, random: true },
+                line_linked: { enable: true, distance: 150, color: "#ffffff", opacity: 0.4, width: 1 },
+                move: { enable: true, speed: 6 }
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: { enable: true, mode: "repulse" },
+                    onclick: { enable: true, mode: "push" }
+                }
+            },
+            retina_detect: true
+        });
+    </script>
+</body>
+</html>
